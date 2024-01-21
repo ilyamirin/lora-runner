@@ -7,7 +7,6 @@ numpy==1.26.3
 packaging==23.2
 pandas==2.2.0
 peft==0.7.1
-Pillow==9.4.0
 Pillow==10.2.0
 streamlit==1.30.0
 torch==2.1.2+cu121
@@ -17,3 +16,5 @@ transformers==4.36.2
 wandb==0.16.2
 wonderwords==2.2.0
 xformers==0.0.23.post1
+streamlit
+wandb

@@ -847,6 +847,7 @@ def main():
                     revision=args.revision,
                     variant=args.variant,
                     torch_dtype=weight_dtype,
+                    safety_checker=None,
                 )
                 pipeline = pipeline.to(accelerator.device)
                 pipeline.set_progress_bar_config(disable=True)
@@ -915,6 +916,7 @@ def main():
                 revision=args.revision,
                 variant=args.variant,
                 torch_dtype=weight_dtype,
+                safety_checker=None,
             )
             pipeline = pipeline.to(accelerator.device)
 
